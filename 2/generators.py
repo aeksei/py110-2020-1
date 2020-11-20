@@ -50,7 +50,7 @@ def my_random(x0, a, m, c):
         raise TypeError(f'All args must be integer. '
                         f'{list(filter(lambda n: not isinstance(n, int), nums))} not integer')
 
-    ...
+    # ToDo Реализовать генератор случайных чисел
 
 
 if __name__ == '__main__':
