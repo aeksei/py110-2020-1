@@ -138,3 +138,8 @@ dmypy.json
 cython_debug/
 
 .idea/
+
+*.json
+!**/**/worker.json
+*.txt
+*.pickle
